@@ -40,7 +40,6 @@ with open('boss_message.json', 'w') as boss_message:
 # print(message['recipient'])
 # print(message['message'])
 
-
-	with open('new_passwords.csv', 'w') as new_passwords_obj:
-    slash_null_sig = "Slash Null"
-	  new_passwords_obj.write(slash_null_sig)
+with open('new_passwords.csv', 'w') as new_passwords_obj:
+  slash_null_sig = "Slash Null"
+  new_passwords_obj.write(slash_null_sig)
